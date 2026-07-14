@@ -1,5 +1,6 @@
 import { renderShell, toast } from './components/layout.js';
 import { renderDashboard } from './pages/dashboard.js';
+import { renderClientsPage } from './pages/clients.js';
 import { preferences } from './storage.js';
 import { bulkPut, getAll } from './database.js';
 
@@ -25,7 +26,9 @@ function renderPlaceholder() {
 async function boot() {
   const settings = await getAll('settings');
   if (!settings.find((s) => s.key === 'firstRunChoice')) await seedDemo(false);
-  if (page === 'dashboard' || page === 'index') await renderDashboard(content); else renderPlaceholder();
+  if (page === 'dashboard' || page === 'index') await renderDashboard(content);
+  else if (page === 'clientes') await renderClientsPage(content);
+  else renderPlaceholder();
 }
 
 window.addEventListener('click', async (event) => {

@@ -24,12 +24,12 @@ export function openDatabase() {
   return dbPromise;
 }
 
-function tx(storeName, mode = 'readonly') {
+function storeRequest(storeName, mode = 'readonly') {
   return openDatabase().then((db) => db.transaction(storeName, mode).objectStore(storeName));
 }
 
 export async function getAll(storeName) {
-  const store = await tx(storeName);
+  const store = await storeRequest(storeName);
   return new Promise((resolve, reject) => {
     const request = store.getAll();
     request.onsuccess = () => resolve(request.result || []);
@@ -37,11 +37,22 @@ export async function getAll(storeName) {
   });
 }
 
-export async function put(storeName, value) {
-  const store = await tx(storeName, 'readwrite');
+export async function getOne(storeName, id) {
+  const store = await storeRequest(storeName);
   return new Promise((resolve, reject) => {
-    const request = store.put({ ...value, updatedAt: new Date().toISOString() });
-    request.onsuccess = () => resolve(value);
+    const request = store.get(id);
+    request.onsuccess = () => resolve(request.result || null);
+    request.onerror = () => reject(request.error);
+  });
+}
+
+export async function put(storeName, value) {
+  const now = new Date().toISOString();
+  const payload = { ...value, updatedAt: now, createdAt: value.createdAt || now };
+  const store = await storeRequest(storeName, 'readwrite');
+  return new Promise((resolve, reject) => {
+    const request = store.put(payload);
+    request.onsuccess = () => resolve(payload);
     request.onerror = () => reject(request.error);
   });
 }
@@ -57,9 +68,18 @@ export async function bulkPut(storeName, values) {
 }
 
 export async function remove(storeName, id) {
-  const store = await tx(storeName, 'readwrite');
+  const store = await storeRequest(storeName, 'readwrite');
   return new Promise((resolve, reject) => {
     const request = store.delete(id);
+    request.onsuccess = () => resolve(true);
+    request.onerror = () => reject(request.error);
+  });
+}
+
+export async function clearStore(storeName) {
+  const store = await storeRequest(storeName, 'readwrite');
+  return new Promise((resolve, reject) => {
+    const request = store.clear();
     request.onsuccess = () => resolve(true);
     request.onerror = () => reject(request.error);
   });
