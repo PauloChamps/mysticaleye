@@ -1,0 +1,2620 @@
+{
+  "clients": [
+    {
+      "id": "cli_demo_1",
+      "name": "LOOREBEE Digital Marketing",
+      "company": "LOOREBEE",
+      "nif": "PT50112345",
+      "email": "contacto1@example.pt",
+      "phone": "+351 911 000 001",
+      "whatsapp": "+351 931 100 101",
+      "website": "https://loorebee.pt",
+      "sector": "Marketing",
+      "city": "Amorosa",
+      "country": "Portugal",
+      "plan": "Growth Partner",
+      "monthlyValue": 1850,
+      "contractStartDate": "2026-02-01",
+      "contractEndDate": "2026-08-26",
+      "status": "Cliente ativo",
+      "source": "Demo profissional",
+      "notes": "Dados de demonstração para LOOREBEE.",
+      "createdAt": "2026-06-21T09:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "cli_demo_2",
+      "name": "PraiaDaAmorosa.pt",
+      "company": "Praia da Amorosa",
+      "nif": "PT50212345",
+      "email": "contacto2@example.pt",
+      "phone": "+351 912 000 002",
+      "whatsapp": "+351 932 100 102",
+      "website": "https://praiadaamorosa.pt",
+      "sector": "Turismo",
+      "city": "Lisboa",
+      "country": "Portugal",
+      "plan": "Presença Digital",
+      "monthlyValue": 680,
+      "contractStartDate": "2026-03-01",
+      "contractEndDate": "2026-09-13",
+      "status": "Cliente ativo",
+      "source": "Demo profissional",
+      "notes": "Dados de demonstração para Praia da Amorosa.",
+      "createdAt": "2026-06-22T09:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "cli_demo_3",
+      "name": "ImigraEuropa",
+      "company": "ImigraEuropa",
+      "nif": "PT50312345",
+      "email": "contacto3@example.pt",
+      "phone": "+351 913 000 003",
+      "whatsapp": "+351 933 100 103",
+      "website": "https://imigraeuropa.pt",
+      "sector": "Imigração",
+      "city": "Porto",
+      "country": "Portugal",
+      "plan": "SEO & Conteúdo",
+      "monthlyValue": 920,
+      "contractStartDate": "2026-04-01",
+      "contractEndDate": "2026-10-01",
+      "status": "Cliente ativo",
+      "source": "Demo profissional",
+      "notes": "Dados de demonstração para ImigraEuropa.",
+      "createdAt": "2026-06-23T09:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "cli_demo_4",
+      "name": "World of Celestian",
+      "company": "Celestian Studio",
+      "nif": "PT50412345",
+      "email": "contacto4@example.pt",
+      "phone": "+351 914 000 004",
+      "whatsapp": "+351 934 100 104",
+      "website": "https://celestianstudio.pt",
+      "sector": "Gaming",
+      "city": "Viana do Castelo",
+      "country": "Portugal",
+      "plan": "Lançamento",
+      "monthlyValue": 1500,
+      "contractStartDate": "2026-05-01",
+      "contractEndDate": "2026-10-19",
+      "status": "Cliente ativo",
+      "source": "Demo profissional",
+      "notes": "Dados de demonstração para Celestian Studio.",
+      "createdAt": "2026-06-24T09:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "cli_demo_5",
+      "name": "Amorosa Surf School",
+      "company": "Amorosa Surf",
+      "nif": "PT50512345",
+      "email": "contacto5@example.pt",
+      "phone": "+351 915 000 005",
+      "whatsapp": "+351 935 100 105",
+      "website": "https://amorosasurf.pt",
+      "sector": "Desporto",
+      "city": "Amorosa",
+      "country": "Portugal",
+      "plan": "Social Media",
+      "monthlyValue": 540,
+      "contractStartDate": "2026-06-01",
+      "contractEndDate": "2026-11-06",
+      "status": "Cliente ativo",
+      "source": "Demo profissional",
+      "notes": "Dados de demonstração para Amorosa Surf.",
+      "createdAt": "2026-06-25T09:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "cli_demo_6",
+      "name": "Casa Atlântica",
+      "company": "Casa Atlântica",
+      "nif": "PT50612345",
+      "email": "contacto6@example.pt",
+      "phone": "+351 916 000 006",
+      "whatsapp": "+351 936 100 106",
+      "website": "https://casaatlântica.pt",
+      "sector": "Imobiliário",
+      "city": "Lisboa",
+      "country": "Portugal",
+      "plan": "Website + SEO",
+      "monthlyValue": 760,
+      "contractStartDate": "2026-01-01",
+      "contractEndDate": "2026-11-24",
+      "status": "Cliente ativo",
+      "source": "Demo profissional",
+      "notes": "Dados de demonstração para Casa Atlântica.",
+      "createdAt": "2026-06-26T09:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "cli_demo_7",
+      "name": "Norte Craft Lab",
+      "company": "Norte Craft",
+      "nif": "PT50712345",
+      "email": "contacto7@example.pt",
+      "phone": "+351 917 000 007",
+      "whatsapp": "+351 937 100 107",
+      "website": "https://nortecraft.pt",
+      "sector": "Artesanato",
+      "city": "Porto",
+      "country": "Portugal",
+      "plan": "Branding",
+      "monthlyValue": 0,
+      "contractStartDate": "2026-02-01",
+      "contractEndDate": "2026-12-12",
+      "status": "Cliente inativo",
+      "source": "Demo profissional",
+      "notes": "Dados de demonstração para Norte Craft.",
+      "createdAt": "2026-06-27T09:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "cli_demo_8",
+      "name": "Viana Wellness Clinic",
+      "company": "Viana Wellness",
+      "nif": "PT50812345",
+      "email": "contacto8@example.pt",
+      "phone": "+351 918 000 008",
+      "whatsapp": "+351 938 100 108",
+      "website": "https://vianawellness.pt",
+      "sector": "Saúde",
+      "city": "Viana do Castelo",
+      "country": "Portugal",
+      "plan": "Google Business",
+      "monthlyValue": 420,
+      "contractStartDate": "2026-03-01",
+      "contractEndDate": "2026-12-30",
+      "status": "Cliente ativo",
+      "source": "Demo profissional",
+      "notes": "Dados de demonstração para Viana Wellness.",
+      "createdAt": "2026-06-28T09:00:00.000Z",
+      "demo": true
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead_demo_1",
+      "name": "Mariana Costa",
+      "company": "Atlântico Tours",
+      "stage": "Novo",
+      "interest": "Website",
+      "estimatedBudget": 900,
+      "probability": 15,
+      "owner": "LOOREBEE",
+      "nextAction": "Enviar follow-up consultivo",
+      "deadline": "2026-07-15",
+      "source": "Instagram",
+      "createdAt": "2026-07-01T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "lead_demo_2",
+      "name": "Rui Almeida",
+      "company": "Minho Legal",
+      "stage": "Contactado",
+      "interest": "SEO",
+      "estimatedBudget": 1200,
+      "probability": 25,
+      "owner": "LOOREBEE",
+      "nextAction": "Enviar follow-up consultivo",
+      "deadline": "2026-07-16",
+      "source": "Website",
+      "createdAt": "2026-07-02T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "lead_demo_3",
+      "name": "Sofia Rocha",
+      "company": "Studio Aurora",
+      "stage": "Qualificado",
+      "interest": "Branding",
+      "estimatedBudget": 2400,
+      "probability": 40,
+      "owner": "LOOREBEE",
+      "nextAction": "Enviar follow-up consultivo",
+      "deadline": "2026-07-17",
+      "source": "Indicação",
+      "createdAt": "2026-07-03T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "lead_demo_4",
+      "name": "Tiago Martins",
+      "company": "Green Bites",
+      "stage": "Reunião",
+      "interest": "Social Media",
+      "estimatedBudget": 600,
+      "probability": 55,
+      "owner": "LOOREBEE",
+      "nextAction": "Enviar follow-up consultivo",
+      "deadline": "2026-07-18",
+      "source": "LinkedIn",
+      "createdAt": "2026-07-04T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "lead_demo_5",
+      "name": "Helena Pinto",
+      "company": "Lima Homes",
+      "stage": "Proposta enviada",
+      "interest": "Campanha",
+      "estimatedBudget": 3500,
+      "probability": 70,
+      "owner": "LOOREBEE",
+      "nextAction": "Enviar follow-up consultivo",
+      "deadline": "2026-07-19",
+      "source": "Instagram",
+      "createdAt": "2026-07-05T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "lead_demo_6",
+      "name": "Miguel Neves",
+      "company": "Craft Viana",
+      "stage": "Negociação",
+      "interest": "Google Business",
+      "estimatedBudget": 1800,
+      "probability": 80,
+      "owner": "LOOREBEE",
+      "nextAction": "Enviar follow-up consultivo",
+      "deadline": "2026-07-20",
+      "source": "Website",
+      "createdAt": "2026-07-06T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "lead_demo_7",
+      "name": "Carla Lima",
+      "company": "Zen Clinic",
+      "stage": "Ganho",
+      "interest": "Website",
+      "estimatedBudget": 900,
+      "probability": 100,
+      "owner": "LOOREBEE",
+      "nextAction": "Enviar follow-up consultivo",
+      "deadline": "2026-07-21",
+      "source": "Indicação",
+      "createdAt": "2026-07-07T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "lead_demo_8",
+      "name": "Pedro Santos",
+      "company": "Ocean Store",
+      "stage": "Perdido",
+      "interest": "SEO",
+      "estimatedBudget": 1200,
+      "probability": 0,
+      "owner": "LOOREBEE",
+      "nextAction": "Enviar follow-up consultivo",
+      "deadline": "2026-07-22",
+      "source": "LinkedIn",
+      "createdAt": "2026-07-08T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "lead_demo_9",
+      "name": "Inês Barros",
+      "company": "North Academy",
+      "stage": "Novo",
+      "interest": "Branding",
+      "estimatedBudget": 2400,
+      "probability": 15,
+      "owner": "LOOREBEE",
+      "nextAction": "Enviar follow-up consultivo",
+      "deadline": "2026-07-23",
+      "source": "Instagram",
+      "createdAt": "2026-07-09T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "lead_demo_10",
+      "name": "João Ferreira",
+      "company": "Porto Lab",
+      "stage": "Contactado",
+      "interest": "Social Media",
+      "estimatedBudget": 600,
+      "probability": 25,
+      "owner": "LOOREBEE",
+      "nextAction": "Enviar follow-up consultivo",
+      "deadline": "2026-07-24",
+      "source": "Website",
+      "createdAt": "2026-07-10T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "lead_demo_11",
+      "name": "Ana Ribeiro",
+      "company": "Amorosa Rent",
+      "stage": "Qualificado",
+      "interest": "Campanha",
+      "estimatedBudget": 3500,
+      "probability": 40,
+      "owner": "LOOREBEE",
+      "nextAction": "Enviar follow-up consultivo",
+      "deadline": "2026-07-25",
+      "source": "Indicação",
+      "createdAt": "2026-07-11T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "lead_demo_12",
+      "name": "Bruno Lopes",
+      "company": "Solaris Tech",
+      "stage": "Reunião",
+      "interest": "Google Business",
+      "estimatedBudget": 1800,
+      "probability": 55,
+      "owner": "LOOREBEE",
+      "nextAction": "Enviar follow-up consultivo",
+      "deadline": "2026-07-26",
+      "source": "LinkedIn",
+      "createdAt": "2026-07-12T10:00:00.000Z",
+      "demo": true
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj_demo_1",
+      "name": "Business Hub",
+      "clientId": "cli_demo_1",
+      "type": "Portal",
+      "description": "Projeto demo com entregáveis, tarefas e acompanhamento operacional.",
+      "priority": "Normal",
+      "status": "Planeamento",
+      "progress": 20,
+      "deadline": "2026-07-20",
+      "budget": 1800,
+      "owner": "Equipa LOOREBEE",
+      "createdAt": "2026-06-25T11:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "prj_demo_2",
+      "name": "Portal Praia da Amorosa",
+      "clientId": "cli_demo_2",
+      "type": "Website",
+      "description": "Projeto demo com entregáveis, tarefas e acompanhamento operacional.",
+      "priority": "Alta",
+      "status": "Backlog",
+      "progress": 45,
+      "deadline": "2026-07-27",
+      "budget": 4200,
+      "owner": "Equipa LOOREBEE",
+      "createdAt": "2026-06-26T11:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "prj_demo_3",
+      "name": "Funil ImigraEuropa",
+      "clientId": "cli_demo_3",
+      "type": "SEO",
+      "description": "Projeto demo com entregáveis, tarefas e acompanhamento operacional.",
+      "priority": "Urgente",
+      "status": "Em andamento",
+      "progress": 62,
+      "deadline": "2026-08-03",
+      "budget": 2400,
+      "owner": "Equipa LOOREBEE",
+      "createdAt": "2026-06-27T11:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "prj_demo_4",
+      "name": "Brand World of Celestian",
+      "clientId": "cli_demo_4",
+      "type": "Branding",
+      "description": "Projeto demo com entregáveis, tarefas e acompanhamento operacional.",
+      "priority": "Baixa",
+      "status": "Em revisão",
+      "progress": 80,
+      "deadline": "2026-08-10",
+      "budget": 3200,
+      "owner": "Equipa LOOREBEE",
+      "createdAt": "2026-06-28T11:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "prj_demo_5",
+      "name": "Calendário Social Amorosa Surf",
+      "clientId": "cli_demo_5",
+      "type": "Social Media",
+      "description": "Projeto demo com entregáveis, tarefas e acompanhamento operacional.",
+      "priority": "Normal",
+      "status": "A aguardar cliente",
+      "progress": 35,
+      "deadline": "2026-08-17",
+      "budget": 960,
+      "owner": "Equipa LOOREBEE",
+      "createdAt": "2026-06-29T11:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "prj_demo_6",
+      "name": "Website Casa Atlântica",
+      "clientId": "cli_demo_6",
+      "type": "Landing Page",
+      "description": "Projeto demo com entregáveis, tarefas e acompanhamento operacional.",
+      "priority": "Alta",
+      "status": "Concluído",
+      "progress": 100,
+      "deadline": "2026-08-24",
+      "budget": 2800,
+      "owner": "Equipa LOOREBEE",
+      "createdAt": "2026-06-30T11:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "prj_demo_7",
+      "name": "Rebranding Norte Craft",
+      "clientId": "cli_demo_7",
+      "type": "Portal",
+      "description": "Projeto demo com entregáveis, tarefas e acompanhamento operacional.",
+      "priority": "Urgente",
+      "status": "Planeamento",
+      "progress": 15,
+      "deadline": "2026-08-31",
+      "budget": 1500,
+      "owner": "Equipa LOOREBEE",
+      "createdAt": "2026-07-01T11:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "prj_demo_8",
+      "name": "Google Profile Wellness",
+      "clientId": "cli_demo_8",
+      "type": "Website",
+      "description": "Projeto demo com entregáveis, tarefas e acompanhamento operacional.",
+      "priority": "Baixa",
+      "status": "Backlog",
+      "progress": 55,
+      "deadline": "2026-09-07",
+      "budget": 700,
+      "owner": "Equipa LOOREBEE",
+      "createdAt": "2026-07-02T11:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "prj_demo_9",
+      "name": "Campanha Verão Atlântico",
+      "clientId": "cli_demo_1",
+      "type": "SEO",
+      "description": "Projeto demo com entregáveis, tarefas e acompanhamento operacional.",
+      "priority": "Normal",
+      "status": "Em andamento",
+      "progress": 70,
+      "deadline": "2026-09-14",
+      "budget": 1200,
+      "owner": "Equipa LOOREBEE",
+      "createdAt": "2026-07-03T11:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "prj_demo_10",
+      "name": "Landing Solaris",
+      "clientId": "cli_demo_2",
+      "type": "Branding",
+      "description": "Projeto demo com entregáveis, tarefas e acompanhamento operacional.",
+      "priority": "Alta",
+      "status": "Em revisão",
+      "progress": 30,
+      "deadline": "2026-09-21",
+      "budget": 900,
+      "owner": "Equipa LOOREBEE",
+      "createdAt": "2026-07-04T11:00:00.000Z",
+      "demo": true
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_demo_1",
+      "title": "Definir estratégia · Business Hub",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_1",
+      "clientId": "cli_demo_1",
+      "owner": "Ana",
+      "priority": "Baixa",
+      "status": "Pendente",
+      "dueDate": "2026-07-10",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_2",
+      "title": "Criar wireframe · Portal Praia da Amorosa",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_2",
+      "clientId": "cli_demo_2",
+      "owner": "Bruno",
+      "priority": "Normal",
+      "status": "Em andamento",
+      "dueDate": "2026-07-11",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-02T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_3",
+      "title": "Escrever copy · Funil ImigraEuropa",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_3",
+      "clientId": "cli_demo_3",
+      "owner": "Carla",
+      "priority": "Alta",
+      "status": "Bloqueada",
+      "dueDate": "2026-07-12",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-03T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_4",
+      "title": "Preparar design · Brand World of Celestian",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_4",
+      "clientId": "cli_demo_4",
+      "owner": "Diogo",
+      "priority": "Urgente",
+      "status": "Em revisão",
+      "dueDate": "2026-07-13",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-04T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_5",
+      "title": "Rever SEO · Calendário Social Amorosa Surf",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_5",
+      "clientId": "cli_demo_5",
+      "owner": "Ana",
+      "priority": "Baixa",
+      "status": "Concluída",
+      "dueDate": "2026-07-14",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": true
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-05T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_6",
+      "title": "Agendar reunião · Website Casa Atlântica",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_6",
+      "clientId": "cli_demo_6",
+      "owner": "Bruno",
+      "priority": "Normal",
+      "status": "Pendente",
+      "dueDate": "2026-07-15",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-06T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_7",
+      "title": "Definir estratégia · Rebranding Norte Craft",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_7",
+      "clientId": "cli_demo_7",
+      "owner": "Carla",
+      "priority": "Alta",
+      "status": "Em andamento",
+      "dueDate": "2026-07-16",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-07T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_8",
+      "title": "Criar wireframe · Google Profile Wellness",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_8",
+      "clientId": "cli_demo_8",
+      "owner": "Diogo",
+      "priority": "Urgente",
+      "status": "Bloqueada",
+      "dueDate": "2026-07-17",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-08T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_9",
+      "title": "Escrever copy · Campanha Verão Atlântico",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_9",
+      "clientId": "cli_demo_1",
+      "owner": "Ana",
+      "priority": "Baixa",
+      "status": "Em revisão",
+      "dueDate": "2026-07-18",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-09T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_10",
+      "title": "Preparar design · Landing Solaris",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_10",
+      "clientId": "cli_demo_2",
+      "owner": "Bruno",
+      "priority": "Normal",
+      "status": "Concluída",
+      "dueDate": "2026-07-19",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": true
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-10T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_11",
+      "title": "Rever SEO · Business Hub",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_1",
+      "clientId": "cli_demo_1",
+      "owner": "Carla",
+      "priority": "Alta",
+      "status": "Pendente",
+      "dueDate": "2026-07-20",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_12",
+      "title": "Agendar reunião · Portal Praia da Amorosa",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_2",
+      "clientId": "cli_demo_2",
+      "owner": "Diogo",
+      "priority": "Urgente",
+      "status": "Em andamento",
+      "dueDate": "2026-07-21",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-02T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_13",
+      "title": "Definir estratégia · Funil ImigraEuropa",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_3",
+      "clientId": "cli_demo_3",
+      "owner": "Ana",
+      "priority": "Baixa",
+      "status": "Bloqueada",
+      "dueDate": "2026-07-22",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-03T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_14",
+      "title": "Criar wireframe · Brand World of Celestian",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_4",
+      "clientId": "cli_demo_4",
+      "owner": "Bruno",
+      "priority": "Normal",
+      "status": "Em revisão",
+      "dueDate": "2026-07-23",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-04T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_15",
+      "title": "Escrever copy · Calendário Social Amorosa Surf",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_5",
+      "clientId": "cli_demo_5",
+      "owner": "Carla",
+      "priority": "Alta",
+      "status": "Concluída",
+      "dueDate": "2026-07-24",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": true
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-05T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_16",
+      "title": "Preparar design · Website Casa Atlântica",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_6",
+      "clientId": "cli_demo_6",
+      "owner": "Diogo",
+      "priority": "Urgente",
+      "status": "Pendente",
+      "dueDate": "2026-07-25",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-06T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_17",
+      "title": "Rever SEO · Rebranding Norte Craft",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_7",
+      "clientId": "cli_demo_7",
+      "owner": "Ana",
+      "priority": "Baixa",
+      "status": "Em andamento",
+      "dueDate": "2026-07-26",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-07T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_18",
+      "title": "Agendar reunião · Google Profile Wellness",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_8",
+      "clientId": "cli_demo_8",
+      "owner": "Bruno",
+      "priority": "Normal",
+      "status": "Bloqueada",
+      "dueDate": "2026-07-27",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-08T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_19",
+      "title": "Definir estratégia · Campanha Verão Atlântico",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_9",
+      "clientId": "cli_demo_1",
+      "owner": "Carla",
+      "priority": "Alta",
+      "status": "Em revisão",
+      "dueDate": "2026-07-28",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-09T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_20",
+      "title": "Criar wireframe · Landing Solaris",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_10",
+      "clientId": "cli_demo_2",
+      "owner": "Diogo",
+      "priority": "Urgente",
+      "status": "Concluída",
+      "dueDate": "2026-07-29",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": true
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-10T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_21",
+      "title": "Escrever copy · Business Hub",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_1",
+      "clientId": "cli_demo_1",
+      "owner": "Ana",
+      "priority": "Baixa",
+      "status": "Pendente",
+      "dueDate": "2026-07-30",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_22",
+      "title": "Preparar design · Portal Praia da Amorosa",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_2",
+      "clientId": "cli_demo_2",
+      "owner": "Bruno",
+      "priority": "Normal",
+      "status": "Em andamento",
+      "dueDate": "2026-07-31",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-02T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_23",
+      "title": "Rever SEO · Funil ImigraEuropa",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_3",
+      "clientId": "cli_demo_3",
+      "owner": "Carla",
+      "priority": "Alta",
+      "status": "Bloqueada",
+      "dueDate": "2026-08-01",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-03T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_24",
+      "title": "Agendar reunião · Brand World of Celestian",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_4",
+      "clientId": "cli_demo_4",
+      "owner": "Diogo",
+      "priority": "Urgente",
+      "status": "Em revisão",
+      "dueDate": "2026-08-02",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-04T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_25",
+      "title": "Definir estratégia · Calendário Social Amorosa Surf",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_5",
+      "clientId": "cli_demo_5",
+      "owner": "Ana",
+      "priority": "Baixa",
+      "status": "Concluída",
+      "dueDate": "2026-08-03",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": true
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-05T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_26",
+      "title": "Criar wireframe · Website Casa Atlântica",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_6",
+      "clientId": "cli_demo_6",
+      "owner": "Bruno",
+      "priority": "Normal",
+      "status": "Pendente",
+      "dueDate": "2026-08-04",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-06T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_27",
+      "title": "Escrever copy · Rebranding Norte Craft",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_7",
+      "clientId": "cli_demo_7",
+      "owner": "Carla",
+      "priority": "Alta",
+      "status": "Em andamento",
+      "dueDate": "2026-08-05",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-07T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_28",
+      "title": "Preparar design · Google Profile Wellness",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_8",
+      "clientId": "cli_demo_8",
+      "owner": "Diogo",
+      "priority": "Urgente",
+      "status": "Bloqueada",
+      "dueDate": "2026-08-06",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-08T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_29",
+      "title": "Rever SEO · Campanha Verão Atlântico",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_9",
+      "clientId": "cli_demo_1",
+      "owner": "Ana",
+      "priority": "Baixa",
+      "status": "Em revisão",
+      "dueDate": "2026-08-07",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": true
+        },
+        {
+          "text": "Entrega validada",
+          "done": false
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-09T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "tsk_demo_30",
+      "title": "Agendar reunião · Landing Solaris",
+      "description": "Tarefa demo operacional.",
+      "projectId": "prj_demo_10",
+      "clientId": "cli_demo_2",
+      "owner": "Bruno",
+      "priority": "Normal",
+      "status": "Concluída",
+      "dueDate": "2026-08-08",
+      "checklist": [
+        {
+          "text": "Brief revisto",
+          "done": false
+        },
+        {
+          "text": "Entrega validada",
+          "done": true
+        }
+      ],
+      "tags": [
+        "demo",
+        "produção"
+      ],
+      "createdAt": "2026-07-10T12:00:00.000Z",
+      "demo": true
+    }
+  ],
+  "marketingPosts": [
+    {
+      "id": "post_demo_1",
+      "title": "Post institucional · LOOREBEE",
+      "clientId": "cli_demo_1",
+      "projectId": "prj_demo_1",
+      "platform": "Instagram",
+      "format": "Post",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-14",
+      "time": "09:30",
+      "status": "Ideia",
+      "campaign": "Verão 2026",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-01T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_2",
+      "title": "Story bastidores · Praia da Amorosa",
+      "clientId": "cli_demo_2",
+      "projectId": "prj_demo_2",
+      "platform": "Facebook",
+      "format": "Story",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-15",
+      "time": "10:30",
+      "status": "Rascunho",
+      "campaign": "Autoridade Local",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-02T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_3",
+      "title": "Carrossel educativo · ImigraEuropa",
+      "clientId": "cli_demo_3",
+      "projectId": "prj_demo_3",
+      "platform": "LinkedIn",
+      "format": "Carrossel",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-16",
+      "time": "11:30",
+      "status": "Em criação",
+      "campaign": "Lançamento",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-03T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_4",
+      "title": "Reel campanha · Celestian Studio",
+      "clientId": "cli_demo_4",
+      "projectId": "prj_demo_4",
+      "platform": "TikTok",
+      "format": "Reel",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-17",
+      "time": "12:30",
+      "status": "Em revisão",
+      "campaign": "Verão 2026",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-04T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_5",
+      "title": "Artigo blog · Amorosa Surf",
+      "clientId": "cli_demo_5",
+      "projectId": "prj_demo_5",
+      "platform": "Blog",
+      "format": "Artigo",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-18",
+      "time": "13:30",
+      "status": "Aprovado",
+      "campaign": "Autoridade Local",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-05T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_6",
+      "title": "Post institucional · Casa Atlântica",
+      "clientId": "cli_demo_6",
+      "projectId": "prj_demo_6",
+      "platform": "Google Business",
+      "format": "Post",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-19",
+      "time": "14:30",
+      "status": "Agendado",
+      "campaign": "Lançamento",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-06T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_7",
+      "title": "Story bastidores · Norte Craft",
+      "clientId": "cli_demo_7",
+      "projectId": "prj_demo_7",
+      "platform": "Instagram",
+      "format": "Story",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-20",
+      "time": "15:30",
+      "status": "Publicado",
+      "campaign": "Verão 2026",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-07T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_8",
+      "title": "Carrossel educativo · Viana Wellness",
+      "clientId": "cli_demo_8",
+      "projectId": "prj_demo_8",
+      "platform": "Facebook",
+      "format": "Carrossel",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-21",
+      "time": "16:30",
+      "status": "Ideia",
+      "campaign": "Autoridade Local",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-08T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_9",
+      "title": "Reel campanha · LOOREBEE",
+      "clientId": "cli_demo_1",
+      "projectId": "prj_demo_9",
+      "platform": "LinkedIn",
+      "format": "Reel",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-22",
+      "time": "17:30",
+      "status": "Rascunho",
+      "campaign": "Lançamento",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-09T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_10",
+      "title": "Artigo blog · Praia da Amorosa",
+      "clientId": "cli_demo_2",
+      "projectId": "prj_demo_10",
+      "platform": "TikTok",
+      "format": "Artigo",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-23",
+      "time": "09:30",
+      "status": "Em criação",
+      "campaign": "Verão 2026",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-10T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_11",
+      "title": "Post institucional · ImigraEuropa",
+      "clientId": "cli_demo_3",
+      "projectId": "prj_demo_1",
+      "platform": "Blog",
+      "format": "Post",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-24",
+      "time": "10:30",
+      "status": "Em revisão",
+      "campaign": "Autoridade Local",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-11T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_12",
+      "title": "Story bastidores · Celestian Studio",
+      "clientId": "cli_demo_4",
+      "projectId": "prj_demo_2",
+      "platform": "Google Business",
+      "format": "Story",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-25",
+      "time": "11:30",
+      "status": "Aprovado",
+      "campaign": "Lançamento",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-12T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_13",
+      "title": "Carrossel educativo · Amorosa Surf",
+      "clientId": "cli_demo_5",
+      "projectId": "prj_demo_3",
+      "platform": "Instagram",
+      "format": "Carrossel",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-26",
+      "time": "12:30",
+      "status": "Agendado",
+      "campaign": "Verão 2026",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-01T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_14",
+      "title": "Reel campanha · Casa Atlântica",
+      "clientId": "cli_demo_6",
+      "projectId": "prj_demo_4",
+      "platform": "Facebook",
+      "format": "Reel",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-27",
+      "time": "13:30",
+      "status": "Publicado",
+      "campaign": "Autoridade Local",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-02T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_15",
+      "title": "Artigo blog · Norte Craft",
+      "clientId": "cli_demo_7",
+      "projectId": "prj_demo_5",
+      "platform": "LinkedIn",
+      "format": "Artigo",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-28",
+      "time": "14:30",
+      "status": "Ideia",
+      "campaign": "Lançamento",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-03T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_16",
+      "title": "Post institucional · Viana Wellness",
+      "clientId": "cli_demo_8",
+      "projectId": "prj_demo_6",
+      "platform": "TikTok",
+      "format": "Post",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-29",
+      "time": "15:30",
+      "status": "Rascunho",
+      "campaign": "Verão 2026",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-04T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_17",
+      "title": "Story bastidores · LOOREBEE",
+      "clientId": "cli_demo_1",
+      "projectId": "prj_demo_7",
+      "platform": "Blog",
+      "format": "Story",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-30",
+      "time": "16:30",
+      "status": "Em criação",
+      "campaign": "Autoridade Local",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-05T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_18",
+      "title": "Carrossel educativo · Praia da Amorosa",
+      "clientId": "cli_demo_2",
+      "projectId": "prj_demo_8",
+      "platform": "Google Business",
+      "format": "Carrossel",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-31",
+      "time": "17:30",
+      "status": "Em revisão",
+      "campaign": "Lançamento",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-06T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_19",
+      "title": "Reel campanha · ImigraEuropa",
+      "clientId": "cli_demo_3",
+      "projectId": "prj_demo_9",
+      "platform": "Instagram",
+      "format": "Reel",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-08-01",
+      "time": "09:30",
+      "status": "Aprovado",
+      "campaign": "Verão 2026",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-07T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_20",
+      "title": "Artigo blog · Celestian Studio",
+      "clientId": "cli_demo_4",
+      "projectId": "prj_demo_10",
+      "platform": "Facebook",
+      "format": "Artigo",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-08-02",
+      "time": "10:30",
+      "status": "Agendado",
+      "campaign": "Autoridade Local",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-08T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_21",
+      "title": "Post institucional · Amorosa Surf",
+      "clientId": "cli_demo_5",
+      "projectId": "prj_demo_1",
+      "platform": "LinkedIn",
+      "format": "Post",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-14",
+      "time": "11:30",
+      "status": "Publicado",
+      "campaign": "Lançamento",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-09T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_22",
+      "title": "Story bastidores · Casa Atlântica",
+      "clientId": "cli_demo_6",
+      "projectId": "prj_demo_2",
+      "platform": "TikTok",
+      "format": "Story",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-15",
+      "time": "12:30",
+      "status": "Ideia",
+      "campaign": "Verão 2026",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-10T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_23",
+      "title": "Carrossel educativo · Norte Craft",
+      "clientId": "cli_demo_7",
+      "projectId": "prj_demo_3",
+      "platform": "Blog",
+      "format": "Carrossel",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-16",
+      "time": "13:30",
+      "status": "Rascunho",
+      "campaign": "Autoridade Local",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-11T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_24",
+      "title": "Reel campanha · Viana Wellness",
+      "clientId": "cli_demo_8",
+      "projectId": "prj_demo_4",
+      "platform": "Google Business",
+      "format": "Reel",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-17",
+      "time": "14:30",
+      "status": "Em criação",
+      "campaign": "Lançamento",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-12T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_25",
+      "title": "Artigo blog · LOOREBEE",
+      "clientId": "cli_demo_1",
+      "projectId": "prj_demo_5",
+      "platform": "Instagram",
+      "format": "Artigo",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-18",
+      "time": "15:30",
+      "status": "Em revisão",
+      "campaign": "Verão 2026",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-01T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_26",
+      "title": "Post institucional · Praia da Amorosa",
+      "clientId": "cli_demo_2",
+      "projectId": "prj_demo_6",
+      "platform": "Facebook",
+      "format": "Post",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-19",
+      "time": "16:30",
+      "status": "Aprovado",
+      "campaign": "Autoridade Local",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-02T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_27",
+      "title": "Story bastidores · ImigraEuropa",
+      "clientId": "cli_demo_3",
+      "projectId": "prj_demo_7",
+      "platform": "LinkedIn",
+      "format": "Story",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-20",
+      "time": "17:30",
+      "status": "Agendado",
+      "campaign": "Lançamento",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-03T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_28",
+      "title": "Carrossel educativo · Celestian Studio",
+      "clientId": "cli_demo_4",
+      "projectId": "prj_demo_8",
+      "platform": "TikTok",
+      "format": "Carrossel",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-21",
+      "time": "09:30",
+      "status": "Publicado",
+      "campaign": "Verão 2026",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-04T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_29",
+      "title": "Reel campanha · Amorosa Surf",
+      "clientId": "cli_demo_5",
+      "projectId": "prj_demo_9",
+      "platform": "Blog",
+      "format": "Reel",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-22",
+      "time": "10:30",
+      "status": "Ideia",
+      "campaign": "Autoridade Local",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-05T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "post_demo_30",
+      "title": "Artigo blog · Casa Atlântica",
+      "clientId": "cli_demo_6",
+      "projectId": "prj_demo_10",
+      "platform": "Google Business",
+      "format": "Artigo",
+      "caption": "Conteúdo demo com legenda profissional.",
+      "hashtags": "#loorebee #marketingdigital",
+      "cta": "Falar com a equipa",
+      "link": "https://loorebee.pt",
+      "date": "2026-07-23",
+      "time": "11:30",
+      "status": "Rascunho",
+      "campaign": "Lançamento",
+      "owner": "Social Team",
+      "notes": "Conteúdo de demonstração.",
+      "createdAt": "2026-07-06T13:00:00.000Z",
+      "demo": true
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_demo_1",
+      "title": "Reunião cliente",
+      "type": "reunião",
+      "date": "2026-07-14",
+      "time": "10:00",
+      "clientId": "cli_demo_1",
+      "projectId": "prj_demo_1",
+      "createdAt": "2026-07-01T15:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "evt_demo_2",
+      "title": "Prazo de entrega",
+      "type": "prazo",
+      "date": "2026-07-16",
+      "time": "11:00",
+      "clientId": "cli_demo_2",
+      "projectId": "prj_demo_2",
+      "createdAt": "2026-07-02T15:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "evt_demo_3",
+      "title": "Revisão interna",
+      "type": "revisão",
+      "date": "2026-07-18",
+      "time": "12:00",
+      "clientId": "cli_demo_3",
+      "projectId": "prj_demo_3",
+      "createdAt": "2026-07-03T15:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "evt_demo_4",
+      "title": "Pagamento previsto",
+      "type": "pagamento",
+      "date": "2026-07-20",
+      "time": "13:00",
+      "clientId": "cli_demo_4",
+      "projectId": "prj_demo_4",
+      "createdAt": "2026-07-04T15:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "evt_demo_5",
+      "title": "Renovação domínio",
+      "type": "renovação",
+      "date": "2026-07-22",
+      "time": "14:00",
+      "clientId": "cli_demo_5",
+      "projectId": "prj_demo_5",
+      "createdAt": "2026-07-05T15:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "evt_demo_6",
+      "title": "Reunião cliente",
+      "type": "reunião",
+      "date": "2026-07-24",
+      "time": "15:00",
+      "clientId": "cli_demo_6",
+      "projectId": "prj_demo_6",
+      "createdAt": "2026-07-06T15:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "evt_demo_7",
+      "title": "Prazo de entrega",
+      "type": "prazo",
+      "date": "2026-07-26",
+      "time": "10:00",
+      "clientId": "cli_demo_7",
+      "projectId": "prj_demo_7",
+      "createdAt": "2026-07-07T15:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "evt_demo_8",
+      "title": "Revisão interna",
+      "type": "revisão",
+      "date": "2026-07-28",
+      "time": "11:00",
+      "clientId": "cli_demo_8",
+      "projectId": "prj_demo_8",
+      "createdAt": "2026-07-08T15:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "evt_demo_9",
+      "title": "Pagamento previsto",
+      "type": "pagamento",
+      "date": "2026-07-30",
+      "time": "12:00",
+      "clientId": "cli_demo_1",
+      "projectId": "prj_demo_9",
+      "createdAt": "2026-07-09T15:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "evt_demo_10",
+      "title": "Renovação domínio",
+      "type": "renovação",
+      "date": "2026-08-01",
+      "time": "13:00",
+      "clientId": "cli_demo_2",
+      "projectId": "prj_demo_10",
+      "createdAt": "2026-07-10T15:00:00.000Z",
+      "demo": true
+    }
+  ],
+  "financialMovements": [
+    {
+      "id": "fin_demo_1",
+      "description": "Mensalidade LOOREBEE",
+      "clientId": "",
+      "projectId": "",
+      "category": "Gestão de Redes Sociais",
+      "type": "despesa",
+      "value": 680,
+      "date": "2026-07-01",
+      "dueDate": "2026-07-05",
+      "status": "Pago",
+      "method": "Transferência",
+      "createdAt": "2026-07-01T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_2",
+      "description": "Tranche projeto Praia da Amorosa",
+      "clientId": "cli_demo_2",
+      "projectId": "prj_demo_2",
+      "category": "Websites",
+      "type": "receita",
+      "value": 1250,
+      "date": "2026-07-02",
+      "dueDate": "2026-07-06",
+      "status": "Pendente",
+      "method": "Cartão",
+      "createdAt": "2026-07-02T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_3",
+      "description": "Consultoria ImigraEuropa",
+      "clientId": "cli_demo_3",
+      "projectId": "prj_demo_3",
+      "category": "Consultoria",
+      "type": "receita",
+      "value": 2400,
+      "date": "2026-07-03",
+      "dueDate": "2026-07-07",
+      "status": "Em atraso",
+      "method": "Débito direto",
+      "createdAt": "2026-07-03T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_4",
+      "description": "Software Celestian Studio",
+      "clientId": "",
+      "projectId": "",
+      "category": "Software",
+      "type": "despesa",
+      "value": 89.99,
+      "date": "2026-07-04",
+      "dueDate": "2026-07-08",
+      "status": "Pago",
+      "method": "Transferência",
+      "createdAt": "2026-07-04T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_5",
+      "description": "Domínio Amorosa Surf",
+      "clientId": "cli_demo_5",
+      "projectId": "prj_demo_5",
+      "category": "Domínios",
+      "type": "receita",
+      "value": 35,
+      "date": "2026-07-05",
+      "dueDate": "2026-07-09",
+      "status": "Pago",
+      "method": "Cartão",
+      "createdAt": "2026-07-05T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_6",
+      "description": "Publicidade Casa Atlântica",
+      "clientId": "cli_demo_6",
+      "projectId": "prj_demo_6",
+      "category": "Publicidade",
+      "type": "receita",
+      "value": 300,
+      "date": "2026-07-06",
+      "dueDate": "2026-07-10",
+      "status": "Pendente",
+      "method": "Débito direto",
+      "createdAt": "2026-07-06T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_7",
+      "description": "Mensalidade Norte Craft",
+      "clientId": "",
+      "projectId": "",
+      "category": "Gestão de Redes Sociais",
+      "type": "despesa",
+      "value": 680,
+      "date": "2026-07-07",
+      "dueDate": "2026-07-11",
+      "status": "Em atraso",
+      "method": "Transferência",
+      "createdAt": "2026-07-07T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_8",
+      "description": "Tranche projeto Viana Wellness",
+      "clientId": "cli_demo_8",
+      "projectId": "prj_demo_8",
+      "category": "Websites",
+      "type": "receita",
+      "value": 1250,
+      "date": "2026-07-08",
+      "dueDate": "2026-07-12",
+      "status": "Pago",
+      "method": "Cartão",
+      "createdAt": "2026-07-08T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_9",
+      "description": "Consultoria LOOREBEE",
+      "clientId": "cli_demo_1",
+      "projectId": "prj_demo_9",
+      "category": "Consultoria",
+      "type": "receita",
+      "value": 2400,
+      "date": "2026-07-09",
+      "dueDate": "2026-07-13",
+      "status": "Pago",
+      "method": "Débito direto",
+      "createdAt": "2026-07-09T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_10",
+      "description": "Software Praia da Amorosa",
+      "clientId": "",
+      "projectId": "",
+      "category": "Software",
+      "type": "despesa",
+      "value": 89.99,
+      "date": "2026-07-10",
+      "dueDate": "2026-07-14",
+      "status": "Pendente",
+      "method": "Transferência",
+      "createdAt": "2026-07-10T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_11",
+      "description": "Domínio ImigraEuropa",
+      "clientId": "cli_demo_3",
+      "projectId": "prj_demo_1",
+      "category": "Domínios",
+      "type": "receita",
+      "value": 35,
+      "date": "2026-07-11",
+      "dueDate": "2026-07-15",
+      "status": "Em atraso",
+      "method": "Cartão",
+      "createdAt": "2026-07-11T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_12",
+      "description": "Publicidade Celestian Studio",
+      "clientId": "cli_demo_4",
+      "projectId": "prj_demo_2",
+      "category": "Publicidade",
+      "type": "receita",
+      "value": 300,
+      "date": "2026-07-12",
+      "dueDate": "2026-07-16",
+      "status": "Pago",
+      "method": "Débito direto",
+      "createdAt": "2026-07-12T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_13",
+      "description": "Mensalidade Amorosa Surf",
+      "clientId": "",
+      "projectId": "",
+      "category": "Gestão de Redes Sociais",
+      "type": "despesa",
+      "value": 680,
+      "date": "2026-07-13",
+      "dueDate": "2026-07-17",
+      "status": "Pago",
+      "method": "Transferência",
+      "createdAt": "2026-07-13T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_14",
+      "description": "Tranche projeto Casa Atlântica",
+      "clientId": "cli_demo_6",
+      "projectId": "prj_demo_4",
+      "category": "Websites",
+      "type": "receita",
+      "value": 1250,
+      "date": "2026-07-14",
+      "dueDate": "2026-07-18",
+      "status": "Pendente",
+      "method": "Cartão",
+      "createdAt": "2026-07-14T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_15",
+      "description": "Consultoria Norte Craft",
+      "clientId": "cli_demo_7",
+      "projectId": "prj_demo_5",
+      "category": "Consultoria",
+      "type": "receita",
+      "value": 2400,
+      "date": "2026-07-15",
+      "dueDate": "2026-07-19",
+      "status": "Em atraso",
+      "method": "Débito direto",
+      "createdAt": "2026-07-15T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_16",
+      "description": "Software Viana Wellness",
+      "clientId": "",
+      "projectId": "",
+      "category": "Software",
+      "type": "despesa",
+      "value": 89.99,
+      "date": "2026-07-16",
+      "dueDate": "2026-07-20",
+      "status": "Pago",
+      "method": "Transferência",
+      "createdAt": "2026-07-16T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_17",
+      "description": "Domínio LOOREBEE",
+      "clientId": "cli_demo_1",
+      "projectId": "prj_demo_7",
+      "category": "Domínios",
+      "type": "receita",
+      "value": 35,
+      "date": "2026-07-17",
+      "dueDate": "2026-07-21",
+      "status": "Pago",
+      "method": "Cartão",
+      "createdAt": "2026-07-17T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_18",
+      "description": "Publicidade Praia da Amorosa",
+      "clientId": "cli_demo_2",
+      "projectId": "prj_demo_8",
+      "category": "Publicidade",
+      "type": "receita",
+      "value": 300,
+      "date": "2026-07-18",
+      "dueDate": "2026-07-22",
+      "status": "Pendente",
+      "method": "Débito direto",
+      "createdAt": "2026-07-18T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_19",
+      "description": "Mensalidade ImigraEuropa",
+      "clientId": "",
+      "projectId": "",
+      "category": "Gestão de Redes Sociais",
+      "type": "despesa",
+      "value": 680,
+      "date": "2026-07-19",
+      "dueDate": "2026-07-23",
+      "status": "Em atraso",
+      "method": "Transferência",
+      "createdAt": "2026-07-19T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "fin_demo_20",
+      "description": "Tranche projeto Celestian Studio",
+      "clientId": "cli_demo_4",
+      "projectId": "prj_demo_10",
+      "category": "Websites",
+      "type": "receita",
+      "value": 1250,
+      "date": "2026-07-20",
+      "dueDate": "2026-07-24",
+      "status": "Pago",
+      "method": "Cartão",
+      "createdAt": "2026-07-20T14:00:00.000Z",
+      "demo": true
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal_demo_1",
+      "name": "Meta anual de receita",
+      "category": "meta anual de receita",
+      "initialValue": 0,
+      "currentValue": 12900,
+      "target": 50000,
+      "unit": "€",
+      "deadline": "2026-12-31",
+      "status": "No caminho certo",
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "goal_demo_2",
+      "name": "Clientes ativos",
+      "category": "clientes ativos",
+      "initialValue": 0,
+      "currentValue": 7,
+      "target": 15,
+      "unit": "clientes",
+      "deadline": "2026-12-31",
+      "status": "Atenção",
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "goal_demo_3",
+      "name": "Projetos concluídos",
+      "category": "projetos concluídos",
+      "initialValue": 0,
+      "currentValue": 2,
+      "target": 12,
+      "unit": "projetos",
+      "deadline": "2026-12-31",
+      "status": "Em risco",
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "goal_demo_4",
+      "name": "Publicações mensais",
+      "category": "publicações mensais",
+      "initialValue": 0,
+      "currentValue": 30,
+      "target": 80,
+      "unit": "posts",
+      "deadline": "2026-12-31",
+      "status": "No caminho certo",
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "goal_demo_5",
+      "name": "Propostas enviadas",
+      "category": "propostas enviadas",
+      "initialValue": 0,
+      "currentValue": 14,
+      "target": 30,
+      "unit": "propostas",
+      "deadline": "2026-12-31",
+      "status": "Atenção",
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "goal_demo_6",
+      "name": "Taxa de conversão",
+      "category": "taxa de conversão",
+      "initialValue": 0,
+      "currentValue": 42,
+      "target": 60,
+      "unit": "%",
+      "deadline": "2026-12-31",
+      "status": "No caminho certo",
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    }
+  ],
+  "domains": [
+    {
+      "id": "dom_demo_1",
+      "domain": "loorebee.pt",
+      "clientId": "cli_demo_1",
+      "renewalDate": "2026-08-01",
+      "status": "Ativo",
+      "provider": "Cloudflare",
+      "cost": 18,
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "dom_demo_2",
+      "domain": "praiadaamorosa.pt",
+      "clientId": "cli_demo_2",
+      "renewalDate": "2026-08-13",
+      "status": "Ativo",
+      "provider": "Cloudflare",
+      "cost": 20,
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "dom_demo_3",
+      "domain": "imigraeuropa.pt",
+      "clientId": "cli_demo_3",
+      "renewalDate": "2026-08-25",
+      "status": "Ativo",
+      "provider": "Cloudflare",
+      "cost": 22,
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "dom_demo_4",
+      "domain": "worldofcelestian.com",
+      "clientId": "cli_demo_4",
+      "renewalDate": "2026-09-06",
+      "status": "Ativo",
+      "provider": "Cloudflare",
+      "cost": 24,
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "dom_demo_5",
+      "domain": "amorosasurf.pt",
+      "clientId": "cli_demo_5",
+      "renewalDate": "2026-09-18",
+      "status": "Ativo",
+      "provider": "Cloudflare",
+      "cost": 26,
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "dom_demo_6",
+      "domain": "casaatlantica.pt",
+      "clientId": "cli_demo_6",
+      "renewalDate": "2026-09-30",
+      "status": "Ativo",
+      "provider": "Cloudflare",
+      "cost": 28,
+      "createdAt": "2026-07-01T12:00:00.000Z",
+      "demo": true
+    }
+  ],
+  "activities": [
+    {
+      "id": "act_demo_1",
+      "module": "clientes",
+      "entityId": "",
+      "message": "Cliente atualizado",
+      "createdAt": "2026-07-14T09:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_2",
+      "module": "projetos",
+      "entityId": "",
+      "message": "Projeto movido",
+      "createdAt": "2026-07-13T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_3",
+      "module": "tarefas",
+      "entityId": "",
+      "message": "Tarefa concluída",
+      "createdAt": "2026-07-12T11:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_4",
+      "module": "financeiro",
+      "entityId": "",
+      "message": "Pagamento registado",
+      "createdAt": "2026-07-11T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_5",
+      "module": "marketing",
+      "entityId": "",
+      "message": "Publicação agendada",
+      "createdAt": "2026-07-10T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_6",
+      "module": "clientes",
+      "entityId": "",
+      "message": "Cliente atualizado",
+      "createdAt": "2026-07-14T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_7",
+      "module": "projetos",
+      "entityId": "",
+      "message": "Projeto movido",
+      "createdAt": "2026-07-13T15:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_8",
+      "module": "tarefas",
+      "entityId": "",
+      "message": "Tarefa concluída",
+      "createdAt": "2026-07-12T16:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_9",
+      "module": "financeiro",
+      "entityId": "",
+      "message": "Pagamento registado",
+      "createdAt": "2026-07-11T09:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_10",
+      "module": "marketing",
+      "entityId": "",
+      "message": "Publicação agendada",
+      "createdAt": "2026-07-10T10:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_11",
+      "module": "clientes",
+      "entityId": "",
+      "message": "Cliente atualizado",
+      "createdAt": "2026-07-14T11:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_12",
+      "module": "projetos",
+      "entityId": "",
+      "message": "Projeto movido",
+      "createdAt": "2026-07-13T12:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_13",
+      "module": "tarefas",
+      "entityId": "",
+      "message": "Tarefa concluída",
+      "createdAt": "2026-07-12T13:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_14",
+      "module": "financeiro",
+      "entityId": "",
+      "message": "Pagamento registado",
+      "createdAt": "2026-07-11T14:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_15",
+      "module": "marketing",
+      "entityId": "",
+      "message": "Publicação agendada",
+      "createdAt": "2026-07-10T15:00:00.000Z",
+      "demo": true
+    },
+    {
+      "id": "act_demo_16",
+      "module": "clientes",
+      "entityId": "",
+      "message": "Cliente atualizado",
+      "createdAt": "2026-07-14T16:00:00.000Z",
+      "demo": true
+    }
+  ]
+}
