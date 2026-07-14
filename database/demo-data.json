@@ -1,0 +1,35 @@
+{
+  "clients": [
+    {"id":"cli_demo_loorebee","name":"LOOREBEE Digital Marketing","company":"LOOREBEE","status":"Cliente ativo","createdAt":"2026-07-01T10:00:00.000Z","monthlyValue":1250,"contractEndDate":"2026-12-31","demo":true},
+    {"id":"cli_demo_amorosa","name":"PraiaDaAmorosa.pt","company":"Praia da Amorosa","status":"Cliente ativo","createdAt":"2026-07-04T10:00:00.000Z","monthlyValue":680,"contractEndDate":"2026-09-20","demo":true},
+    {"id":"cli_demo_imigra","name":"ImigraEuropa","company":"ImigraEuropa","status":"Proposta enviada","createdAt":"2026-07-08T10:00:00.000Z","monthlyValue":0,"contractEndDate":"2026-08-18","demo":true}
+  ],
+  "leads": [
+    {"id":"lead_demo_celestian","name":"World of Celestian","company":"World of Celestian","stage":"Proposta enviada","estimatedBudget":3200,"probability":65,"createdAt":"2026-07-10T09:00:00.000Z","demo":true}
+  ],
+  "projects": [
+    {"id":"prj_demo_amorosa","name":"Portal PraiaDaAmorosa.pt","clientId":"cli_demo_amorosa","type":"Portal","status":"Em andamento","progress":58,"deadline":"2026-08-15","budget":4200,"createdAt":"2026-07-04T12:00:00.000Z","demo":true},
+    {"id":"prj_demo_brand","name":"Sistema visual LOOREBEE Hub","clientId":"cli_demo_loorebee","type":"Branding","status":"Em revisão","progress":76,"deadline":"2026-07-28","budget":1800,"createdAt":"2026-07-02T12:00:00.000Z","demo":true}
+  ],
+  "tasks": [
+    {"id":"tsk_demo_1","title":"Rever arquitetura do Business Hub","clientId":"cli_demo_loorebee","projectId":"prj_demo_brand","status":"Em andamento","priority":"Alta","dueDate":"2026-07-16","createdAt":"2026-07-12T12:00:00.000Z","demo":true},
+    {"id":"tsk_demo_2","title":"Preparar proposta World of Celestian","status":"Pendente","priority":"Urgente","dueDate":"2026-07-13","createdAt":"2026-07-10T12:00:00.000Z","demo":true}
+  ],
+  "marketingPosts": [
+    {"id":"post_demo_1","title":"Lançamento Praia da Amorosa","clientId":"cli_demo_amorosa","platform":"Instagram","status":"Agendado","date":"2026-07-18","createdAt":"2026-07-11T12:00:00.000Z","demo":true}
+  ],
+  "events": [
+    {"id":"evt_demo_1","title":"Reunião semanal de produção","type":"reunião","date":"2026-07-15","createdAt":"2026-07-12T12:00:00.000Z","demo":true}
+  ],
+  "financialMovements": [
+    {"id":"fin_demo_1","description":"Mensalidade Social Media","clientId":"cli_demo_loorebee","type":"receita","value":1250,"date":"2026-07-05","status":"Pago","createdAt":"2026-07-05T12:00:00.000Z","demo":true},
+    {"id":"fin_demo_2","description":"Software criativo","type":"despesa","value":89.99,"date":"2026-07-06","status":"Pago","createdAt":"2026-07-06T12:00:00.000Z","demo":true},
+    {"id":"fin_demo_3","description":"Website Praia da Amorosa — tranche","clientId":"cli_demo_amorosa","type":"receita","value":1400,"date":"2026-07-22","dueDate":"2026-07-22","status":"Pendente","createdAt":"2026-07-08T12:00:00.000Z","demo":true}
+  ],
+  "goals": [
+    {"id":"goal_demo_1","name":"Meta anual de receita","category":"receita anual","initialValue":0,"currentValue":2650,"target":50000,"unit":"€","deadline":"2026-12-31","status":"No caminho certo","createdAt":"2026-07-01T12:00:00.000Z","demo":true}
+  ],
+  "domains": [
+    {"id":"dom_demo_1","domain":"praiadaamorosa.pt","clientId":"cli_demo_amorosa","renewalDate":"2026-08-30","status":"Ativo","createdAt":"2026-07-01T12:00:00.000Z","demo":true}
+  ]
+}
