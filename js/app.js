@@ -1,6 +1,8 @@
 import { renderShell, toast } from './components/layout.js';
 import { renderDashboard } from './pages/dashboard.js';
 import { renderClientsPage } from './pages/clients.js';
+import { renderLeadsPage } from './pages/leads.js';
+import { renderProjectsPage } from './pages/projects.js';
 import { preferences } from './storage.js';
 import { bulkPut, getAll } from './database.js';
 
@@ -28,6 +30,8 @@ async function boot() {
   if (!settings.find((s) => s.key === 'firstRunChoice')) await seedDemo(false);
   if (page === 'dashboard' || page === 'index') await renderDashboard(content);
   else if (page === 'clientes') await renderClientsPage(content);
+  else if (page === 'leads') await renderLeadsPage(content);
+  else if (page === 'projetos') await renderProjectsPage(content);
   else renderPlaceholder();
 }
 
@@ -36,8 +40,25 @@ window.addEventListener('click', async (event) => {
   if (action === 'toggle-menu') document.querySelector('#sidebar').classList.toggle('open');
   if (action === 'theme') { const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'; document.documentElement.dataset.theme = next; preferences.set('theme', next); }
   if (action === 'seed-demo') { await seedDemo(true); await renderDashboard(content); }
-  if (action === 'quick-new') toast('Criação rápida será ligada aos formulários reutilizáveis na próxima fase.', 'info');
+  if (action === 'quick-new') {
+    const menu = document.createElement('div');
+    menu.className = 'modal-backdrop';
+    menu.innerHTML = '<div class="modal" role="dialog" aria-modal="true"><div class="drawer-head"><div><span class="badge">Criação rápida</span><h2>Novo registo</h2></div><button class="icon-btn" data-action="close-quick">✕</button></div><div class="quick-grid"><a class="btn primary" href="leads.html?action=new">Lead</a><a class="btn primary" href="projetos.html?action=new">Projeto</a><a class="btn" href="clientes.html?action=new">Cliente</a></div></div>';
+    document.body.append(menu);
+  }
+  if (action === 'close-quick' || event.target.classList.contains('modal-backdrop')) event.target.closest('.modal-backdrop')?.remove();
 });
+document.querySelector('#globalSearch')?.addEventListener('change', async (event) => {
+  const q = event.target.value.toLowerCase().trim();
+  if (!q) return;
+  const [leads, projects] = await Promise.all([getAll('leads'), getAll('projects')]);
+  const lead = leads.find((item) => [item.name, item.company, item.interest].join(' ').toLowerCase().includes(q));
+  const project = projects.find((item) => [item.name, item.type].join(' ').toLowerCase().includes(q));
+  if (lead) location.href = 'leads.html';
+  else if (project) location.href = 'projetos.html';
+  else toast('Sem resultados em leads ou projetos.', 'info');
+});
+
 window.addEventListener('keydown', (event) => { if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') { event.preventDefault(); document.querySelector('#globalSearch')?.focus(); } });
 
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('service-worker.js').catch(() => {});
