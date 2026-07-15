@@ -1,6 +1,6 @@
 export const APP_NAME = 'LOOREBEE Business Hub';
 export const APP_VERSION = '1.0.0';
-export const SCHEMA_VERSION = 1;
+export const SCHEMA_VERSION = 2;
 
 export const STORES = [
   { name: 'clients', keyPath: 'id', indexes: ['name', 'company', 'status', 'createdAt'] },

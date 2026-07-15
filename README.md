@@ -114,3 +114,7 @@ A adicionar quando a identidade visual final e a logótipo oficial estiverem dis
 ## Créditos e identidade LOOREBEE
 
 A aplicação foi desenhada para usar a logótipo oficial em `assets/branding/logo-loorebee.png`, sem recriação, redesenho ou geração por IA. Caso o ficheiro ainda não exista, a interface usa uma marca textual temporária apenas como fallback técnico.
+
+## Nota de desenvolvimento: Service Worker
+
+Durante desenvolvimento ou após deploy no GitHub Pages, se o navegador mantiver JavaScript antigo em cache, abra as DevTools, aceda a **Application > Service Workers** e use **Unregister**, ou limpe os dados do site antes de recarregar.

@@ -4,6 +4,19 @@ import { requireFields, sanitizeText } from '../validators.js';
 import { toast } from '../components/layout.js';
 
 const state = { clients: [], projects: [], tasks: [], posts: [], finance: [], domains: [], query: '', status: 'Todos', view: 'table' };
+let searchDebounce;
+
+function renderClientsPreservingSearch(container) {
+  const input = container.querySelector('#clientSearch');
+  const start = input?.selectionStart ?? state.query.length;
+  const end = input?.selectionEnd ?? state.query.length;
+  renderClients(container);
+  const next = container.querySelector('#clientSearch');
+  if (next) {
+    next.focus();
+    next.setSelectionRange(Math.min(start, next.value.length), Math.min(end, next.value.length));
+  }
+}
 const statuses = ['Lead', 'Contactado', 'Reunião agendada', 'Proposta enviada', 'Negociação', 'Cliente ativo', 'Cliente inativo', 'Perdido', 'Arquivado'];
 
 function statusClass(status = '') {
@@ -155,7 +168,11 @@ export async function renderClientsPage(container) {
   container.innerHTML = '<div class="skeleton"></div>';
   await loadAndRender();
   container.addEventListener('input', (event) => {
-    if (event.target.id === 'clientSearch') { state.query = event.target.value; renderClients(container); }
+    if (event.target.id === 'clientSearch') {
+      state.query = event.target.value;
+      clearTimeout(searchDebounce);
+      searchDebounce = setTimeout(() => renderClientsPreservingSearch(container), 180);
+    }
   });
   container.addEventListener('change', (event) => {
     if (event.target.id === 'clientStatus') { state.status = event.target.value; renderClients(container); }

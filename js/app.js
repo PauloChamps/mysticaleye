@@ -62,4 +62,8 @@ document.querySelector('#globalSearch')?.addEventListener('change', async (event
 window.addEventListener('keydown', (event) => { if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') { event.preventDefault(); document.querySelector('#globalSearch')?.focus(); } });
 
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('service-worker.js').catch(() => {});
-boot().catch((error) => { console.error(error); content.innerHTML = '<div class="card">Erro ao iniciar a aplicação.</div>'; });
+boot().catch((error) => {
+  console.error('Erro ao iniciar módulo', { page, name: error?.name, message: error?.message, stack: error?.stack });
+  const label = page === 'leads' ? 'Leads' : page === 'projetos' ? 'Projetos' : 'aplicação';
+  content.innerHTML = `<div class="card empty"><strong>Não foi possível iniciar o módulo ${label}.</strong><p>Atualize a página ou limpe o cache do navegador se o problema persistir.</p><button class="btn primary" type="button" onclick="location.reload()">Tentar novamente</button></div>`;
+});
